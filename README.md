@@ -15,10 +15,11 @@ While this version of *The Watchdog* is a simple prototype, I fully intend to tu
 
 **Features:**
 
--"Whistle at The Dog": a form for residents to log concerns and experiences
--"Subscribe Section": an email form with checkboxes and dropdowns for topic and frequency preferences.
--"Responsive Styling": clean layout using semantic HTML and custom CSS
--"JavaScript Data Model": uses arrays, objects, and loops to simulate a real subscriber section (🤞🏻)
+- "Whistle at The Dog": a form for residents to log concerns and experiences
+
+- "Subscribe Section": an email form with checkboxes and dropdowns for topic and frequency preferences.
+- "Responsive Styling": clean layout using semantic HTML and custom CSS
+- "JavaScript Data Model": uses arrays, objects, and loops to simulate a real subscriber section (🤞🏻)
 
 **Lessons Learned:**
 

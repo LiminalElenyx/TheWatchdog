@@ -23,7 +23,7 @@ While this version of *The Watchdog* is a simple prototype, I fully intend to tu
 
 **Lessons Learned:**
 
-This project gave me the opportunity to connect my personal convictions with practical programming skills. While HTML and CSS are the easier and more fun aspects of programming, I was eager to put some JavaScript concepts to practical use, as it is what I need to most practice with. For me at this stage in my journey, it requires a lot of trial and error, Googling, YouTubing, and consulting, often with AI, on how to correct my syntax in order to achieve my output goal. I am confident that after enough practice,  the syntax will come more naturally to me (though probably never as natural as HTML and CSS 🥲). 
+This project gave me the opportunity to connect my personal convictions with practical programming skills. While HTML and CSS are the easier and more fun aspects of programming, I was eager to put some JavaScript concepts to practical use, as it is what I need to most practice. For me at this stage in my journey, it requires a lot of trial and error, Googling, YouTubing, and consulting, often with AI, on how to correct my syntax in order to achieve my output goal. I am confident that after enough practice,  the syntax will come more naturally to me (though probably never as natural as HTML and CSS 🥲). 
 The lesson that stuck out to me the most on this journey, however, is to ALWAYS check the Console Log in DevTools before committing, because the browser will catch errors that VS Code did not... I'm looking at you, "button type" tag 😅.
 
 **Future Vision for *The Watchdog:***

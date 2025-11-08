@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    font-family: "Merriweather", Georgia, serif;
+    color: #1b1b1b;
+    background-color: #f4f1e8;
+    line-height: 1.65;
+
+}
+
+.masthead {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.masthead h1 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    margin: 0;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.tagline {
+    margin: 0.5rem 0 0;
+  color: var(#3e3e3e);
+  font-style: italic;
+
+}
+.whistle-section {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.whistle-section label {
+    display: block;
+    margin-bottom: .5rem;
+    margin-right: .75rem;
+    font-weight: 500;
+    
+}
+
+#complaint {
+    width: 100%;
+    min-height: 9rem;
+    box-sizing: border-box;
+    padding: .5rem; 
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.whistle-button {
+    margin-top: .75rem;
+    padding: .5rem .75rem;
+    background-color: #1b1b1b;
+    color: #f9f9f9;
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: .95rem;
+    cursor: pointer;
+    border: none;    
+}
+
+.whistle-button:hover {
+    background-color: #8b3a2b;
+    color: #f9f9f9;
+    box-shadow: 0 3px 8px rgba(0,0,0,.25);
+    transform: translateY(-1px);
+    opacity: .95;
+}
+
+.subscribe-section {
+    max-width: 700px;
+    margin: 2rem auto 0;
+    background-color: #ffffff;
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+.subscribe-section h2 {
+    margin-top: 0;
+}
+
+.subscribe-section .form-row {
+    margin-bottom: 1rem;
+}
+
+.subscribe-section .form-row p {
+    margin: 0 0 0.4rem;
+    font-weight: 600;
+}
+
+.subscribe-section .form-row label {
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+    margin-bottom: .3rem;
+    font-weight: 400;
+}
+
+.subscribe-section label {
+    display: block;
+    margin-bottom: .35rem;
+    font-weight: 600;
+}
+
+.subscribe-section label[for="update-frequency"] {
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: .5;
+    margin-bottom: .4rem;
+    margin-top: 1.5rem;
+}
+
+.subscribe-section input[type="email"] {
+    width: 100%;
+    padding: .4rem .5rem;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.subscribe-section input[type="checkbox"] {
+    accent-color: #8b3a2b;
+}
+
+.subscribe-section select {
+    width: 100%;
+    padding: .4rem .5rem;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.subscribe-button {
+    margin-top: .75rem;
+    padding: .5rem .75rem;
+    background-color: #1b1b1b;
+    color: #f9f9f9;
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: .95rem;
+    cursor: pointer;
+    border: none;    
+}
+
+.subscribe-button:hover {
+    background-color: #8b3a2b;
+    color:#f9f9f9;
+    box-shadow: 0 3px 8px rgba(0,0,0,.25);
+    transform: translateY(-1px);
+    opacity: .95;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Watchdog | Holding Power Accountable in Boston, KY</title>
+</head>
+<body> 
+    <header class="masthead">
+        <h1>The Watchdog</h1>
+        <p class="tagline">Because silence serves only the powerful.</p>
+        <p class="author">By Anon, a frustrated resident and thorn in their side.</p>
+    </header>
+    <section class="whistle-section">
+        <h2>Whistle at The Dog</h2>
+        <p>Concerns? Unanswered questions? Gripes in general? This is your spot. Let the community know how you’re being personally affected by J.B. using the form below.</p>
+        <form>
+        
+            <textarea id="complaint" name="complaint" rows="10" required
+            placeholder="What's going on? Describe what you're experiencing or your concerns."></textarea>
+            <button type="submit" class="whistle-button">Blow the Whistle</button>
+        </form>
+    </section>
+
+    <section class="subscribe-section">
+        <h2>Stay on the Scent</h2>
+        <p>Get updates when new complaints are posted, ongoing battles escalate, or J.B. makes another mess.</p>
+        <form id="subscribe-form">
+            <div class="form-row">
+                <label for="subscriber-email">Email address</label>
+                <input
+                type="email"
+                id="subscriber-email"
+                name="subscriberEmail"
+                required
+                placeholder="you@example.com"
+                >
+            </div>
+            <div class="form-row">
+                <p>What do you want to hear about?</p>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    name="topics"
+                    value="barrel-fields">
+                    Barrel fields and rickhouses
+                </label>    
+
+                <label>
+                    <input
+                    type="checkbox"
+                    name="topics"
+                    value="construction-traffic">
+                    Construction and traffic
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    name="topics"
+                    value="hazards">
+                    Environmental hazards and Quality Reports
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    name="topics"
+                    value="community">
+                    Impact on neighbors and community
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    name="topics"
+                    value="updates-permits">
+                    Updates on permits and zoning
+                </label>
+
+                <label for="update-frequency">How often do you want updates?</label>
+                <select id="update-frequency" name="updateFrequency" required>
+                    <option value="">Select a frequency</option>
+                    <option value="new-complaints">When new complaints are posted</option>
+                    <option value="weekly">Weekly summary</option>
+                    <option value="major-updates">Only major developments</option>
+                </select>
+            </div>
+
+            <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+    </section>
+
+
+    <script src="index.js"></script>  
+ 
+</body>
+</html>
